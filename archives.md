@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Archives
 ---
-## About
+## Archives
 To be done

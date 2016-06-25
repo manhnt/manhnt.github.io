@@ -2,7 +2,7 @@
 title: Vundle for beginner - Vim plugins manager
 ---
 
-## Vim, plugins and plugin manager
+### Vim, plugins and plugin manager
 Well, if you're reading this article, then I assume that you already know what Vim editor is. So let me skip the introduce part.
 
 One key feature that makes the power of Vim is the plugin system. Vim let you extends, enhance its power, abilities (and complexities) through the plugins that you can install.
@@ -15,7 +15,7 @@ That's why we should use a plugin manager to automate the process of setting up 
 
 There are many options for you to choose a plugin manager for Vim. Take a quick search on Google and you will see some names like Vundle, Pathogen, vim-plug, etc.. In this specific post, I will talk about Vundle. Why? Because I haven't used the others :innocent: 
 
-## What is Vundle?
+### What is Vundle?
 [Vundle] is a Vim plugin that, well, manages other plugins (and even itself). From the [introduction](https://github.com/VundleVim/Vundle.vim/blob/master/README.md):
 
 > Vundle allows you to...
@@ -32,7 +32,7 @@ There are many options for you to choose a plugin manager for Vim. Take a quick 
 > * manages the runtime path of your installed scripts
 > * regenerates help tags after installing and updating
 
-### How it works?
+#### How it works?
 Normally, plugins and additional configuration files are conventionally stored at `~/.vim` directory. Inside, most plugins are splitted into subdirectories based on the functionality that they provide. These could be things like `autoload`, `plugin`, `colors`, etc. For examples, below is the subdirectories in a conventional `~/.vim` directory:
 
 ```
@@ -54,19 +54,19 @@ Beside that, Vundle adds an interface in Vim for user to manage the plugins easi
 
 Now let's jump right in how to get it run!
 
-## Install Vundle
-:warning: **NOTICE: This section only shows how to install Vundle on a traditional Linux system (Ubuntu, CentOS, Fedora, etc.). If you're using Windows or MacOS or other, please refer to [offical Wiki guide](https://github.com/VundleVim/Vundle.vim/wiki)**
+### Install Vundle
+**NOTICE: This section only shows how to install Vundle on a traditional Linux system (Ubuntu, CentOS, Fedora, etc.). If you're using Windows or MacOS or other, please refer to [offical Wiki guide](https://github.com/VundleVim/Vundle.vim/wiki)**
 
-:warning: **Prequisites**
+**Prequisites**
 
 Installation of Vundle requires Git to clone the repository from Github. If Git is not avalable, you can go to [Github repository] and download the repo as zip file.
 
 
-## Install plugins with Vundle
+### Install plugins with Vundle
 
-## Manage plugins: update, uninstall, etc.
+### Manage plugins: update, uninstall, etc.
 
-## Conclusion
+### Conclusion
 I'll give other options a chance if I have time for that. For now, Vundle is enough for my need.
 
 [Vundle]:http://github.com/VundleVim/Vundle.vim

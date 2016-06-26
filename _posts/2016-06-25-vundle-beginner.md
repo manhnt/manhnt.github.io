@@ -18,19 +18,19 @@ There are many options for you to choose a plugin manager for Vim. Take a quick 
 ### What is Vundle?
 [Vundle] is a Vim plugin that, well, manages other plugins (and even itself). From the [introduction](https://github.com/VundleVim/Vundle.vim/blob/master/README.md):
 
-> Vundle allows you to...
->
-> * keep track of and configure your plugins right in the `.vimrc`
-> * install configured plugins (a.k.a. scripts/bundle)
-> * update configured plugins
-> * search by name all available Vim scripts
-> * clean unused plugins up
-> * run the above actions in a *single keypress* with interactive mode
->
-> Vundle automatically...
->
-> * manages the runtime path of your installed scripts
-> * regenerates help tags after installing and updating
+Vundle allows you to...
+
+* keep track of and configure your plugins right in the `.vimrc`
+* install configured plugins (a.k.a. scripts/bundle)
+* update configured plugins
+* search by name all available Vim scripts
+* clean unused plugins up
+* run the above actions in a *single keypress* with interactive mode
+
+Vundle automatically...
+
+* manages the runtime path of your installed scripts
+* regenerates help tags after installing and updating
 
 #### How it works?
 Normally, plugins and additional configuration files are conventionally stored at `~/.vim` directory. Inside, most plugins are splitted into subdirectories based on the functionality that they provide. These could be things like `autoload`, `plugin`, `colors`, etc. For examples, below is the subdirectories in a conventional `~/.vim` directory:

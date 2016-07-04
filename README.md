@@ -1,9 +1,21 @@
-# manhnt.github.io
-The respository for my personal GitHub page
+## HCZ Material theme
 
-http://manhnt.github.io
+This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
 
-I would like to thank KingFelix for the `emerald` theme that I used for my page.
-You can find `emerald` theme at:
+### Demo
+* [http://aboutashu.com/hcz-jekyll-blog](http://aboutashu.com/hcz-jekyll-blog/)
 
-https://github.com/KingFelix/emerald
+#### Feature
+
+* Sitemap and XML Feed
+* Projects and tags
+* Paginations in homepage
+* Posts under category
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+
+#### Screenshot
+
+![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  "Screenshot Home Page")

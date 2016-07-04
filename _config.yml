@@ -1,38 +1,58 @@
-# Site settings
-title: ManhNT's blog | On software 'n programming
-description: "Description place holder"
-url: "http://manhnt.github.io/"
-author:
-  name: "ManhNT"
-  email: "manhnt1991@gmail.com"
-  url: "http://manhnt.github.io/"
+title: John Smith
+description: My Personal Blog
+author: John Smith
+logo: http://aboutashu.com/hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/ashutosh2k12
+about: Freelance developer
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
+urls:
+    - text: Home
+      url: /
+      icon: fa-home
+      layout: post
+    - text: About
+      url: /about/
+      icon: fa-comments
+    - text: Projects
+      url: /projects/
+      icon: fa-desktop
+    - text: Resume
+      url: '#'
+      icon: fa-graduation-cap
+    - text: Github
+      url: https://github.com/ashutosh2k12
+      icon: fa-github
+    - text: XML Feed
+      url: /feed.xml
+      icon: fa-feed
+      
+social:
+    - icon: fa-facebook
+      link: '#'
+    - icon: fa-skype
+      link: '#'
+    - icon: fa-twitter
+      link: '#'
+    - icon: fa-linkedin
+      link: '#'
+    - icon: fa-stack-exchange
+      link: '#'
 
-# Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+url: "http://aboutashu.com/hcz-jekyll-blog"
+baseurl: "/hcz-jekyll-blog"
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
-
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Custom variables
-version: "0.0.1"
-
-# Plugins
-gems: [jekyll-paginate]
-
-# Options
-custom_header: false
-custom_nav_footer: true
-reverse: false
-
+gems:
+  - jekyll-paginate
+  - jekyll-gist

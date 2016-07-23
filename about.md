@@ -1,6 +1,10 @@
 ---
 layout: page
-title: About Me
+title: About
+permalink: /about/
 ---
-## About
-To be done
+
+Hi!
+
+I'm Manh Nguyen. You're visiting my personal blog.
+

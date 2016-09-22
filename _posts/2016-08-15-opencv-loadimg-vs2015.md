@@ -46,7 +46,7 @@ directory, by default configuration. But the executable file is put in the build
 So my solution is simply change the default working directory of the project in VS to `$(OutDir)`.
 
 In VS, right click on the project. Select *Properties*, select *Debugging*. In debugging config, change the *Working Directory* to 
-`$(OutDir).
+`$(OutDir)`.
 
 Actually I'm not a guys who familiar with Visual Studio, have never use it in any work. So it took me days just to fix this simple problem.
 This is like a quick note for my future self can have something to refer :)

@@ -4,7 +4,7 @@ title: OpenCV C++ - How to succesfully read image in Visual Studio 2015
 categories: opencv
 ---
 
-# OpenCV C++ - How to succesfully read image in Visual Studio 2015
+# OpenCV C++ - How to read image by OpenCV in Visual Studio 2015
 
 Recently I started to work with OpenCV again after along time not touching it (about 2 years and a half). One problem that block me is
 that my freaking super-simple code CAN NOT read an image successfully!

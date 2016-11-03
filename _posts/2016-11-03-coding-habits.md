@@ -30,6 +30,7 @@ ugly, inconsistent indentation.
     int  instance       = 0;
     int  ssidIndex      = 0;
     ```
+    
     This can be achived by using some plugins for the text editors (e.g [AlignTab]
     for Sublime Text)
 

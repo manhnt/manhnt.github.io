@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenCV C++ - How to succesfully read image in Visual Studio 2015
+title: OpenCV C++ - How to read image by OpenCV in Visual Studio 2015
 categories: opencv
 ---
 

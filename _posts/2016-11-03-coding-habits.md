@@ -23,20 +23,22 @@ ugly, inconsistent indentation.
 
 - Align the code vertically for more readable. Example:
 
-    ```
-    char nodeName[34]   = {'\0'};
-    char signal[30]     = {'\0'};
-    char signalAttr[30] = {'\0'};
-    int  instance       = 0;
-    int  ssidIndex      = 0;
-    ```
-    
-    This can be achived by using some plugins for the text editors (e.g [AlignTab]
-    for Sublime Text)
+```
+char node[32]       =  {'\0'};
+char value[32]      =  {'\0'};
+char attribute[32]  =  {'\0'};
+int  instance       =  0;
+int  index          =  0;
+```
 
-(The list will be updated as I grow new habits :D)
+This can be achived by using some plugins for the text editors (e.g [AlignTab]
+for Sublime Text)
+
+
+(The list will be updated as new habits grow :D)
 
 Please give your ideas, suggestion and your personal habits in the comment.
 
 
 [AlignTab]: https://github.com/randy3k/AlignTab
+

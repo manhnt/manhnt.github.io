@@ -20,14 +20,14 @@ urls:
 
 social:
     - icon: fa-stack-exchange
-      link: 'http://stackoverflow.com/users/1275831/theman?tab=profile'
+      link: 'https://stackoverflow.com/users/1275831/theman?tab=profile'
     - icon: fa-github
       link: 'https://github.com/manhnt'
 
 enableTags: true
 tagarray: []
 
-url: "http://manhnt.github.io"
+url: "https://manhnt.github.io"
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
